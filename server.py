@@ -23,8 +23,21 @@ def index():
     yearsby10 = []
     for i in range(0,len(years),10):
         yearsby10.append(years[i])
-    line_endpoints =[]
+
+    agerange = [100,90,80,70,60,50,40]
+    canadavalues = []
+    usvalues = []
+    mexicovalues = []
+
+    for year in years:
+        canadavalues.append(data["Canada"][year])
+        usvalues.append(data["United States"][year])
+        mexicovalues.append(data["Mexico"][year])
+
     print(years)
+    print(canadavalues)
+    print(usvalues)
+    print(mexicovalues)
     # #Filter and reformat data for ease of access in the template
     # requested_data = data[requested_pet]
     # years = sorted(list(requested_data.keys()))
@@ -36,7 +49,7 @@ def index():
 
     # return render_template('individual_scores.html', pet=requested_pet, years = years, endpoints = line_endpoints)
 
-    return render_template('index.html',year=requested_year,all_years=years,year_increment = yearsby10)
+    return render_template('index.html',year=requested_year,all_years=years,year_increment = yearsby10,age_increment = agerange)
 
 @app.route('/year')
 def year():
