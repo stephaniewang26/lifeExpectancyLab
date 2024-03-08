@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000">
+
+     <text x="50" y="20">Insert your line graph here</text>
+     <line class="axis" x1="200" y1="200" x2="200" y2="800" />
+     <line class="axis" x1="200" y1="800" x2="1400" y2="800" />
+     {% for year in year_increment %}
+     <text x="{{200+loop.index0*200}}" y="850">{{year}}</text>
+     {% endfor %}
+
+</svg>
