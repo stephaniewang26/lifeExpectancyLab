@@ -1,19 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
 
-     <text x="50" y="20">Insert your line graph here</text>
+     <text class="graphtitle" x="150" y="90">Life Expectancy from 1960-2020 in North America</text>
      <line class="axis" x1="200" y1="200" x2="200" y2="800" />
      <line class="axis" x1="200" y1="800" x2="1400" y2="800" />
 
+
+     {% for point in canadaendpoints %}
+     <line class="line" x1="{{200+loop.index0*20}}" y1="{{800-((point[0]-40)*10)}}" x2="{{200+(loop.index0+1)*20}}" y2="{{800-((point[1]-40)*10)}}" stroke-linecap="round"/>
+     {% endfor %}
+     <text x="1420" y="385">Canada</text>
+
+     {% for point in usendpoints %}
+     <line class="line" x1="{{200+loop.index0*20}}" y1="{{800-((point[0]-40)*10)}}" x2="{{200+(loop.index0+1)*20}}" y2="{{800-((point[1]-40)*10)}}" stroke-linecap="round"/>
+     {% endfor %}
+     <text x="1420" y="420">United States</text>
+
+     {% for point in mexicoendpoints %}
+     <line class="line" x1="{{200+loop.index0*20}}" y1="{{800-((point[0]-40)*10)}}" x2="{{200+(loop.index0+1)*20}}" y2="{{800-((point[1]-40)*10)}}" stroke-linecap="round"/>
+     {% endfor %}
+     <text x="1420" y="510">Mexico</text>
+
+     {% for point in avgendpoints %}
+     <line class="avgline" x1="{{200+loop.index0*20}}" y1="{{800-((point[0]-40)*10)}}" x2="{{200+(loop.index0+1)*20}}" y2="{{800-((point[1]-40)*10)}}" stroke-linecap="round"/>
+     {% endfor %}
+     <text x="1420" y="445">Average</text>
+     
+
      {% for year in year_increment %}
-     <text class="axisLabel" x="{{200+loop.index0*200}}" y="850">{{year}}</text>
+     <text x="{{200+loop.index0*200}}" y="850">{{year}}</text>
      {% endfor %}
 
-     <text x="800" y="900">Years</text>
+     <text class="axislabel" x="800" y="900">Years</text>
 
      {% for age in age_increment %}
      <text x="150" y="{{200+loop.index0*100}}">{{age}}</text>
      {% endfor %}
 
-     <text class="axisLabel" transform="translate(100, 550) rotate(270)">Life Expectancy</text>
+     <text class="axislabel" transform="translate(100, 550) rotate(270)">Life Expectancy</text>
 
 </svg>

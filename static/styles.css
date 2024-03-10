@@ -19,3 +19,27 @@ svg{
   stroke: #333333;
   stroke-width: 3;
 }
+
+.line {
+  stroke: #222222;
+  stroke-width: 3;
+  opacity: .9;
+}
+
+
+.avgline{
+  stroke: #c47d7d;
+  stroke-width: 3;
+  opacity: .9;
+}
+
+.graphtitle{
+  font-family: 'Sometype Mono', monospace;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.axislabel{
+  font-weight: 600;
+  font-size: 20px;
+}
