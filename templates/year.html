@@ -15,9 +15,17 @@
 
   <script>
      var canada=document.getElementsByClassName("Canada")
+     var mexico=document.getElementsByClassName("US")
+     var us=document.getElementsByClassName("Mexico")
 
      for (var i=0; i<canada.length; i++){
-      canada[i].style.fill="red"; 
+      canada[i].style.fill= "hsl(217,90%,{{100-canadavalue}}%)"
+     }
+     for (var i=0; i<mexico.length; i++){
+      mexico[i].style.fill= "hsl(217,90%,{{mexicovalue}}%)"
+     }
+     for (var i=0; i<us.length; i++){
+      us[i].style.fill= "hsl(217,90%,{{usvalue}}%)"
      }
   </script>
 

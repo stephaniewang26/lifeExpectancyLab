@@ -31,6 +31,7 @@ svg{
   stroke: #c47d7d;
   stroke-width: 3;
   opacity: .9;
+  stroke-dasharray: 5;
 }
 
 .graphtitle{

@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
 
      <text class="graphtitle" x="150" y="90">Life Expectancy from 1960-2020 in North America</text>
-     <line class="axis" x1="200" y1="200" x2="200" y2="800" />
-     <line class="axis" x1="200" y1="800" x2="1400" y2="800" />
+     
 
 
      {% for point in canadaendpoints %}
@@ -35,6 +34,9 @@
      {% for age in age_increment %}
      <text x="150" y="{{200+loop.index0*100}}">{{age}}</text>
      {% endfor %}
+
+     <line class="axis" x1="200" y1="200" x2="200" y2="800" />
+     <line class="axis" x1="200" y1="800" x2="1400" y2="800" /> 
 
      <text class="axislabel" transform="translate(100, 550) rotate(270)">Life Expectancy</text>
 
