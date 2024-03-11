@@ -65,6 +65,9 @@ def year():
 
     #Check to see if year is passed via the query string portion of the URL
     requested_year = request.args.get('year')
+    canadavalue = data["Canada"][requested_year]
+    usvalue = data["United States"][requested_year]
+    mexicovalue = data["Mexico"][requested_year]
     # if requested_pet not in data:
     #     requested_pet = "tigers"
 
@@ -78,6 +81,6 @@ def year():
     #     line_endpoints.append([requested_data[start_x],requested_data[stop_x]] )
 
     # return render_template('individual_scores.html', pet=requested_pet, years = years, endpoints = line_endpoints)
-    return render_template('year.html',year=requested_year)
+    return render_template('year.html',year=requested_year,canadavalue=canadavalue,usvalue=usvalue,mexicovalue=mexicovalue)
 
 app.run(debug=True)

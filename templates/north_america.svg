@@ -1,5 +1,25 @@
-<svg fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" viewbox="50 0 1000 902" width="100%" height= xmlns="http://www.w3.org/2000/svg">
+<svg fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" viewbox="0 0 1000 1000" width="100%" height= xmlns="http://www.w3.org/2000/svg">
+  <rect width="70" height="20" x="-50" y="900" rx="10" ry="10" fill="#e8f3fe" /></rect>
+  <rect width="70" height="20" x="-50" y="870" rx="10" ry="10" fill="#cce4fd" /></rect>
+  <rect width="70" height="20" x="-50" y="840" rx="10" ry="10" fill="#a4cefc" /></rect>
+  <rect width="70" height="20" x="-50" y="810" rx="10" ry="10" fill="#77b6fb" /></rect>
+  <rect width="70" height="20" x="-50" y="780" rx="10" ry="10" fill="#4b9cf9" /></rect>
+  <rect width="70" height="20" x="-50" y="750" rx="10" ry="10" fill="#2382f7" /></rect>
+  <rect width="70" height="20" x="-50" y="720" rx="10" ry="10" fill="#196bde" /></rect>
+  <rect width="70" height="20" x="-50" y="690" rx="10" ry="10" fill="#1557c0" /></rect>
+  <rect width="70" height="20" x="-50" y="660" rx="10" ry="10" fill="#13459c" /></rect>
+  <rect width="70" height="20" x="-50" y="630" rx="10" ry="10" fill="#0f3375" /></rect>
 
+  <text x="30" y="915" fill="black">50-53</text>
+  <text x="30" y="885" fill="black">54-57</text>
+  <text x="30" y="855" fill="black">58-61</text>
+  <text x="30" y="825" fill="black">62-65</text>
+  <text x="30" y="795" fill="black">66-69</text>
+  <text x="30" y="765" fill="black">70-73</text>
+  <text x="30" y="735" fill="black">74-77</text>
+  <text x="30" y="705" fill="black">78-81</text>
+  <text x="30" y="675" fill="black">82-85</text>
+  <text x="30" y="645" fill="black">86-89</text>
   <!---
   { AB: "Alberta",
     AK: "Alaska",

@@ -6,10 +6,22 @@
 </head>
 <body>
 
+
+
   <h1>North America Life Expectancy - {{year}}</h1>
   <div id="north_america">
     {% include 'north_america.svg' %}
   </div>
+
+  <script>
+     var canada=document.getElementsByClassName("Canada")
+
+     for (var i=0; i<canada.length; i++){
+      canada[i].style.fill="red"; 
+     }
+  </script>
+
+  <p>In {{year}}, Canada's life expectancy was {{canadavalue}}, the United States' life expectancy was {{usvalue}}, and Mexico's life expectancy was {{mexicovalue}}.</p>
 
   <footer>
     All data from <a href="https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=MX-US-CA"> The World Bank</a>.
