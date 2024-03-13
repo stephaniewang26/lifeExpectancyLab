@@ -20,18 +20,39 @@ svg{
   stroke-width: 3;
 }
 
-.line {
-  stroke: #222222;
+.canadaline {
+  stroke: #ae0b0b;
   stroke-width: 3;
   opacity: .9;
 }
 
+.usline {
+  stroke: #190bae;
+  stroke-width: 3;
+  opacity: .9;
+}
+
+.mexicoline {
+  stroke: #146c42;
+  stroke-width: 3;
+  opacity: .9;
+}
 
 .avgline{
-  stroke: #c47d7d;
+  stroke: #948c8c;
   stroke-width: 3;
   opacity: .9;
   stroke-dasharray: 5;
+}
+
+.canadaline:hover{
+  stroke: #e58787;
+}
+.usline:hover{
+  stroke: #aaa4f1;
+}
+.mexicoline:hover{
+  stroke: #9ee3c2;
 }
 
 .graphtitle{

@@ -65,13 +65,14 @@ def year():
 
     #Check to see if year is passed via the query string portion of the URL
     requested_year = request.args.get('year')
+    # canadavalue = ((((data["Canada"][requested_year])-20)-30)*(5/3))+30
+    # usvalue = ((((data["United States"][requested_year])-20)-30)*(5/3))+30
+    # mexicovalue = ((((data["Mexico"][requested_year])-20)-30)*(5/3))+30
+
     canadavalue = data["Canada"][requested_year]
-    canadavalue = (85-canadavalue)*(8/3)+10
     usvalue = data["United States"][requested_year]
-    usvalue = (85-usvalue)*(8/3)+10
     mexicovalue = data["Mexico"][requested_year]
-    print(mexicovalue)
-    mexicovalue = (85-mexicovalue)*(8/3)+10
+    
 
     print(canadavalue,usvalue,mexicovalue)
     

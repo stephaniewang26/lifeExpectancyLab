@@ -1,14 +1,14 @@
 <svg fill="#ececec" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" viewbox="0 0 1000 1000" width="100%" height= xmlns="http://www.w3.org/2000/svg">
-  <rect width="70" height="20" x="-50" y="900" rx="10" ry="10" fill="#e8f3fe" /></rect>
-  <rect width="70" height="20" x="-50" y="870" rx="10" ry="10" fill="#cce4fd" /></rect>
-  <rect width="70" height="20" x="-50" y="840" rx="10" ry="10" fill="#a4cefc" /></rect>
-  <rect width="70" height="20" x="-50" y="810" rx="10" ry="10" fill="#77b6fb" /></rect>
-  <rect width="70" height="20" x="-50" y="780" rx="10" ry="10" fill="#4b9cf9" /></rect>
-  <rect width="70" height="20" x="-50" y="750" rx="10" ry="10" fill="#2382f7" /></rect>
-  <rect width="70" height="20" x="-50" y="720" rx="10" ry="10" fill="#196bde" /></rect>
-  <rect width="70" height="20" x="-50" y="690" rx="10" ry="10" fill="#1557c0" /></rect>
-  <rect width="70" height="20" x="-50" y="660" rx="10" ry="10" fill="#13459c" /></rect>
-  <rect width="70" height="20" x="-50" y="630" rx="10" ry="10" fill="#0f3375" /></rect>
+  <rect width="70" height="20" x="-50" y="900" rx="10" ry="10" fill="#0c60dc" /></rect>
+  <rect width="70" height="20" x="-50" y="870" rx="10" ry="10" fill="#1054cc" /></rect>
+  <rect width="70" height="20" x="-50" y="840" rx="10" ry="10" fill="#104cb4" /></rect>
+  <rect width="70" height="20" x="-50" y="810" rx="10" ry="10" fill="#1044a4" /></rect>
+  <rect width="70" height="20" x="-50" y="780" rx="10" ry="10" fill="#10449c" /></rect>
+  <rect width="70" height="20" x="-50" y="750" rx="10" ry="10" fill="#083c8c" /></rect>
+  <rect width="70" height="20" x="-50" y="720" rx="10" ry="10" fill="#08347c" /></rect>
+  <rect width="70" height="20" x="-50" y="690" rx="10" ry="10" fill="#082c6c" /></rect>
+  <rect width="70" height="20" x="-50" y="660" rx="10" ry="10" fill="#082c6c" /></rect>
+  <rect width="70" height="20" x="-50" y="630" rx="10" ry="10" fill="#082454" /></rect>
 
   <text x="30" y="915" fill="black">55-57</text>
   <text x="30" y="885" fill="black">58-60</text>
